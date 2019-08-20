@@ -1,0 +1,18 @@
+
+.body{
+    margin:0;
+}
+.presentation h2{
+    font-family: 'Bright Young Things Regular';
+   
+    
+}
+
+
+
+@font-face {
+    font-family: 'Bright Young Things Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bright Young Things Regular'), url('Bright Young Things.woff') format('woff');
+}
