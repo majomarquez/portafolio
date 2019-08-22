@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    font-family: 'Julius Sans One Regular'!important; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container-fluid p{
+    font-family: 'Skoda Pro Light'!important; 
+    font-size: 22px;
+    color:rgb(0, 0, 0);
+    margin-bottom: 3%;
+}
+.container-fluid h3{
+    font-size: 34px;
+    margin-top: 3%;
+}
+.contact img, .technicalSkills img{
+    width: 8%;
+    margin-bottom: 3%;
+}
+.presentation,.aboutMe ,.technicalSkills ,.myProyects ,.otherInterest ,.contact {
+background-color: white;
+}
+/* Subtitle Category */
+.presentation h1 {
+    margin-top: 8% 
+} 
+.aboutMe h3{
+    color: #0fbbbd;
+}
+.technicalSkills h3{
+    color: #8a3657;
+}
+.myProyects h3{
+    color: #106e78;
+}
+.otherInterest h3{
+    color: #faa15f;
+}
+.contact  h3 {
+    color: #e54859;
+} 
+
+
+/* canvas */
+.lineOne, .lineTwo, .lineThree, .lineFour,.lineFive, .lineSix{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+}
+
+/* transitions */
+.presentation{
+    transform: rotate(-20deg);
+}
+.presentation:hover{
+    transform: rotate(0deg);
+    transition:2s;
+}
+
+.aboutMe{
+    transform: rotate(20deg);
+}
+.aboutMe:hover{
+    transform: rotate(0deg);
+    transition:2s;
+}
+.technicalSkills {
+    transform: rotate(25deg);
+}
+.technicalSkills:hover{
+    transform: rotate(0deg);
+    transition:2s;
+}
+.myProyects{
+    transform: rotate(90deg);
+}
+.myProyects:hover{
+     transform: rotate(0deg);
+    transition:2s;
+}
+/* .otherInterest{
+     
+}
+.otherInterest:hover{
+     
+} */
+/* .contact{
+    
+} 
+.contact:hover{
+    
+}  */
+
+/* Fonts */
+@font-face {
+    font-family: 'Julius Sans One Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Julius Sans One Regular'), url('JuliusSansOne-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Skoda Pro Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Skoda Pro Light'), url('SkodaProLight.woff') format('woff');
+}
+
