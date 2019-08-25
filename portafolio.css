@@ -89,21 +89,28 @@ background-color: white;
 .presentation{
     transform: rotate(-20deg);
     margin-left: 0;
+    
 }
 .presentation:hover{
     transform: rotate(0deg);
     transition:2s;
+    animation-fill-mode: initial;
+    
 }
 
 .aboutMe{
     transform: rotate(25deg);
+    transition:2s;
 }
 .aboutMe:hover{
     transform: rotate(0deg);
     transition:2s;
+    animation-play-state: paused;
+
 }
 .technicalSkills {
     transform: rotate(-23deg);
+    transition:2s;
 }
 .technicalSkills:hover{
     transform: rotate(0deg);
@@ -111,6 +118,7 @@ background-color: white;
 }
 .myProyects{
     transform: rotate(30deg);
+    transition:2s;
 }
 .myProyects:hover{
     transform: rotate(0deg);
@@ -118,6 +126,7 @@ background-color: white;
 }
 .otherInterest{
     transform: rotate(0deg);
+    transition:2s;
 }
 .otherInterest:hover{
     transform: rotate(0deg);
