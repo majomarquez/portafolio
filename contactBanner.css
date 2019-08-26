@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    
+}
+.banner{
+    display:flex !important;
+    background: white;
+    height:700px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Julius Sans One Regular';
+    font-weight: bold;
+ }
+p, a{
+    font-family:'Skoda Pro Light';
+    color: black;
+    font-weight: bold;
+}
+
+.banner__item{
+    flex:1;
+    color: black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:flex-grow 0.2s;
+}
+.banner__item:hover {
+    flex-grow: 10;
+}
+.banner__item:hover .banner__title{
+    transform: rotate(0)
+}
+.banner__item:nth-child(1){
+    background-color: #0fbbbd;
+}
+.banner__item:nth-child(2){
+    background-color: #36c1c3;
+}
+.banner__item:nth-child(3){
+    background-color: #4dc3c5;
+}
+.banner__item:nth-child(4){
+    background-color: #6ebabb;
+}
+.banner__item:nth-child(5){
+    background-color:#95bbbb;
+}
+.banner__item:nth-child(6){
+    background-color: #b4b8b8;
+}
+.banner__item:nth-child(7){
+    background-color: #7e8080;
+}
+.banner__title{
+    margin:0;
+    transform:rotate(-90deg);
+    transition: transform 0.2s;
+}
+/* Fonts */
+@font-face {
+    font-family: 'Julius Sans One Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Julius Sans One Regular'), url('JuliusSansOne-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Skoda Pro Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Skoda Pro Light'), url('SkodaProLight.woff') format('woff');
+}
+
