@@ -1,3 +1,7 @@
+/* .container-fluid:hover {
+    zoom: scale(0.5);
+  } */
+
 body{
     margin:0;
     font-family: 'Julius Sans One Regular'!important;
@@ -17,9 +21,7 @@ body{
 .presentation{
     border-left: solid black 5px;
 }
-.myProyects {
-  margin-top: 3%
-}
+
 /* .fas {
     background-color: aquamarine
 } */
@@ -74,20 +76,33 @@ background-color: white;
     height: 5px;
     background-color: black;
 }
+.lineOne{
+margin: 0 0 3% 0;
+}
 .lineTwo{
     width: 100%;
+    margin: 3% 0;
+
 }
 .lineThree{
     width: 100%;
+    margin: 3% 0;
+
 }
 .lineFour{
     width: 90%;
+    margin: 3% 0;
+
 }
 .lineFive{
     width: 100%;
+    margin: 3% 0;
+
 }
 .lineSix{
     width: 100%;
+    margin: 3% 0;
+
 }
 
 /* transitions */
@@ -96,10 +111,12 @@ background-color: white;
     margin-left: 0;
     transition-duration: 150s;
 
+
 }
 .presentation:hover{
     transform: rotate(0deg);
-    transition-duration: 2s;
+    transition-duration: 1s;
+
 }
 
 .aboutMe{
@@ -109,8 +126,7 @@ background-color: white;
 }
 .aboutMe:hover{
     transform: rotate(0deg);
-    transition-duration: 2s;
-
+    transition-duration: 1s;
 
 }
 .technicalSkills {
@@ -120,7 +136,7 @@ background-color: white;
 }
 .technicalSkills:hover{
     transform: rotate(0deg);
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
 .myProyects{
     transform: rotate(30deg);
@@ -128,7 +144,7 @@ background-color: white;
 }
 .myProyects:hover{
     transform: rotate(0deg);
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
 
 
@@ -147,3 +163,33 @@ background-color: white;
     src: local('Skoda Pro Light'), url('SkodaProLight.woff') format('woff');
 }
 
+ @media screen and (min-width: 320px) and (max-width: 767px)  {
+    html{
+        zoom: 40%;
+    }
+}
+    @media screen and (min-width: 768px) and (max-width: 1024px)  {
+        html{
+            zoom: 60%;
+        }
+    }
+        /*        and (orientation: portrait)
+         transform: rotate(-90deg);
+        transform-origin: right top;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    } 
+    
+ 
+      html { 
+      transform: rotate(-90deg);
+      transform-origin: right top;
+      width: 100%;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    } */ 
+ 
