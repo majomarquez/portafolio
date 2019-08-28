@@ -1,8 +1,8 @@
 {
-  "name": "portafolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "portafolio.js",
+  "name": "portfoliomjm",
+  "version": "2.0.0",
+  "description": "Portafolio Maria Jose Marquez",
+  "main": "portafolio.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/majomarquez/portafolio.git"
   },
-  "author": "",
+  "author": "Maria Jose Marquez P",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/majomarquez/portafolio/issues"

@@ -180,9 +180,7 @@ margin: 0 0 3% 0;
         position: absolute;
         top: 100%;
         left: 0;
-    } 
-    
- 
+    }
       html { 
       transform: rotate(-90deg);
       transform-origin: right top;
