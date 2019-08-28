@@ -176,6 +176,9 @@ margin: 0 0 3% 0;
         html{
             zoom: 60%;
         }
+        #portrait{
+            display: block;
+              }
     }
         /*        and (orientation: portrait)
          transform: rotate(-90deg);
