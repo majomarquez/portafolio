@@ -167,6 +167,10 @@ margin: 0 0 3% 0;
     html{
         zoom: 40%;
     }
+    #portrait{
+        display: block;
+          }
+
 }
     @media screen and (min-width: 768px) and (max-width: 1024px)  {
         html{
