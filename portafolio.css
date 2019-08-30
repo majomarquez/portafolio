@@ -34,7 +34,12 @@ body{
 .contact2 {
     display: none;
 }
-
+h4{
+    text-align: center;
+    color: #0fbbbd;
+    padding-bottom: 4%;
+    font-size: 20px;
+}
 
 /* MENU */
 .menu{
@@ -195,7 +200,8 @@ body{
         text-align: center;
     }
     h4{
-        font-size: 15px
+        font-size: 15px;
+        text-align: center;
     }
 
 }
