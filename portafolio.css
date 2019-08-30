@@ -1,7 +1,13 @@
-/* .container-fluid:hover {
-    zoom: scale(0.5);
-  } */
-
+* {
+    box-sizing: border-box;
+  }
+.container-fluid{
+    padding: 0%
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+ padding-right: 15px;
+}
+   
 body{
     margin:0;
     font-family: 'Julius Sans One Regular'!important;
@@ -9,22 +15,80 @@ body{
     align-items: center;
     justify-content: center;
 }
-.container-fluid p{
+.portfolio p{
     font-family: 'Skoda Pro Light'!important;
-    font-size: 22px;
+    font-size: 26px;
     color:rgb(0, 0, 0);
     margin-bottom: 3%;
 }
-.container-fluid h3{
-    font-size: 34px;
-}
+
 .presentation{
     border-left: solid black 5px;
 }
+.me{
+    width: 100%;
+}
+.contact{
+    padding-top: 6%;
+    padding-left: 25%
+}
 
-/* .fas {
-    background-color: aquamarine
-} */
+
+/* MENU */
+.menu{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.menu__x {
+    width: 12%;
+
+}
+.menu ul{
+    background-color: white;
+    display: none;
+    list-style: none;
+    padding: 0px;
+    width:100%;
+    text-align: center;
+}
+.menu:hover ul, ul:hover{
+    display: block;
+}
+.menu li{
+    margin: 10px 0px
+}
+.menu li a{
+    color: black
+}
+/* END OF MENU */
+/* MODAL */
+
+
+  /* END OF MODAL */
+
+/* SUBTITLE CATEGORY */
+.presentation h1 {
+    margin-top: 10%;
+    margin-bottom: 2%;
+    font-size: 45px
+}
+.presentation h2 {
+    font-size: 35px;
+}
+.aboutMe h3,.technicalSkills h3, .myProyects h3,.otherInterest h3, .contact  h3 {
+    color: #0fbbbd;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* ENDSUBTITLE CATEGORY */
+
+
+.fa-phone::before, .fa-phone::before, .fa-linkedin::before, .fa-github::before, .fa-address-card::before, .fa-envelope::before {
+    color: black;
+    padding: 13%;
+    outline: none;
+}
 .contact img{
     width: 15%;
     padding: 1%;
@@ -33,106 +97,59 @@ body{
     width: 30%;
     margin-bottom: 3%;
 }
+/* END ICONS */
 
-/* .presentation,.aboutMe ,.technicalSkills ,.myProyects ,.otherInterest ,.contact {
-background-color: white;
-} */
-
-/* Subtitle Category */
-
-
-.presentation h1 {
-    margin-top: 8%;
-}
-.aboutMe h3{
-    color: #0fbbbd;
-    text-align: center;
-}
-.technicalSkills h3{
-    color: #0fbbbd;;
-    text-align: center;
-}
-.myProyects h3{
-    color: #0fbbbd;;
-    text-align: center;
-}
-.otherInterest h3{
-    color: #0fbbbd;;
-    text-align: center;
-}
-.contact  h3 {
-    color: #0fbbbd;;
-    text-align: center;
-}
-.fa-phone::before, .fa-phone::before, .fa-linkedin::before, .fa-github::before, .fa-address-card::before, .fa-envelope::before {
-    color: black;
-
-}
-
-
-/* canvas */
+/* CANVAS, LINES */
 .lineOne,.lineTwo, .lineThree, .lineFour,.lineFive, .lineSix{
-    /* width: 100%; */
     height: 5px;
     background-color: black;
 }
 .lineOne{
-margin: 0 0 3% 0;
+    margin: 0 0 3% 0;
 }
 .lineTwo{
     width: 100%;
     margin: 3% 0;
-
 }
 .lineThree{
     width: 100%;
     margin: 3% 0;
-
 }
 .lineFour{
     width: 90%;
     margin: 3% 0;
-
 }
 .lineFive{
     width: 100%;
     margin: 3% 0;
-
 }
 .lineSix{
     width: 100%;
     margin: 3% 0;
-
 }
+/* END LINES */
 
-/* transitions */
+/* TRANSITION */
 .presentation{
     transform: rotate(-20deg);
     margin-left: 0;
     transition-duration: 150s;
-
-
 }
 .presentation:hover{
     transform: rotate(0deg);
     transition-duration: 1s;
-
 }
-
 .aboutMe{
     transform: rotate(25deg);
     transition-duration: 150s;
-
 }
 .aboutMe:hover{
     transform: rotate(0deg);
     transition-duration: 1s;
-
 }
 .technicalSkills {
     transform: rotate(-23deg);
     transition-duration: 150s;
-
 }
 .technicalSkills:hover{
     transform: rotate(0deg);
@@ -147,9 +164,11 @@ margin: 0 0 3% 0;
     transition-duration: 1s;
 }
 
+/* END TRANSITION */
 
 
-/* Fonts */
+
+/* FONTS */
 @font-face {
     font-family: 'Julius Sans One Regular';
     font-style: normal;
@@ -162,22 +181,49 @@ margin: 0 0 3% 0;
     font-weight: normal;
     src: local('Skoda Pro Light'), url('SkodaProLight.woff') format('woff');
 }
+/* END FONTS */
 
- @media screen and (min-width: 320px) and (max-width: 767px)  {
+/* RESPONSIVE */
+ @media screen and (min-width: 120px) and (max-width: 767px)  {
     html{
-        zoom: 40%;
+        zoom: 20%;
+    }
+    .portfolio p{
+        font-size: 15px;
+    }
+    .presentation h1 {
+        font-size: 34px !important;
+    }
+    .presentation h2 {
+        font-size: 20px !important;
+    }
+    .aboutMe h3,.technicalSkills h3, .myProyects h3,.otherInterest h3, .contact  h3 {
+        font-size: 20px;
+    }
+    .contact {
+        padding-top: 0%;
+        padding-left: 0%;
     }
 
-
+    .menu{
+        display: none;
+    }
 }
     @media screen and (min-width: 768px) and (max-width: 1024px)  {
         html{
             zoom: 60%;
         }
-
+        .portfolio p{
+            font-size: 23px;
+        }
     }
-    @media only screen and (orientation:portrait){
+    /* @media only screen and (orientation:portrait){
         html {
          zoom: 30%;
-                  }
-      }
+    }
+} */
+/* END RESPONSIVE */
+
+
+
+
