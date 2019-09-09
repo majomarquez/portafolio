@@ -261,7 +261,11 @@ h4{
 }
 }
 
-/* @media only screen and (min-device-width: 320px) and (max-device-width: 480px){ 
+@media only screen and  (min-device-width : 414px) and (max-device-width : 736px) { 
+    html{
+        zoom: 40%;
+        
+    } 
     .contact {
         display: none;
     }
@@ -280,6 +284,6 @@ h4{
     h4{
         font-size: 15px;
         text-align: center;
-    }} */
+    }}
 /* END RESPONSIVE */
 
