@@ -17,7 +17,8 @@ body{
 }
 .portfolio{
     background-color: whitesmoke;
-}
+
+ }
 .portfolio p{
     font-family: 'Skoda Pro Light'!important;
     font-size: 26px;
@@ -56,7 +57,7 @@ h4{
 /* MENU */
 .menu{
     margin-top: 30px;
-    margin-right: 30px;
+ 
 }
 .menu__x {
     width: 12%;
@@ -203,7 +204,7 @@ h4{
 /* END FONTS */
 
 /* RESPONSIVE */
-@media screen and (min-width: 2px) and (max-width: 199px)and (orientation:portrait) {
+@media screen and (min-width: 2px) and (max-width: 427px)and (orientation:portrait) {
     .contact {
         display: none;
     }
@@ -217,24 +218,27 @@ h4{
         font-size: 15px;
         text-align: center;
     }
-
 }
 
  @media screen and (min-width: 2px) and (max-width: 767px)  {
-    html{
+    /* html{
         zoom: 20%;
-    }
+    } */
     .portfolio p{
-        font-size: 15px;
+        font-size: 41px;
     }
     .presentation h1 {
-        font-size: 32px !important;
+        font-size: 65px !important;
     }
     .presentation h2 {
-        font-size: 20px !important;
+        font-size: 49px !important;
+    }
+    .technicalSkills {
+        transform: rotate(-20deg);
+        transition-duration: 150s;
     }
     .aboutMe h3,.technicalSkills h3, .myProyects h3,.otherInterest h3, .contact  h3 {
-        font-size: 20px;
+        font-size: 45px;
     }
     .menu{
         display: none;
@@ -245,21 +249,17 @@ h4{
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px)  {
-    html{
+    /* html{
         zoom: 60%;
-    }
+    } */
     .portfolio p{
-        font-size: 23px;
+        font-size: 32px;
     }
+    .aboutMe h3,.technicalSkills h3, .myProyects h3,.otherInterest h3, .contact  h3 {
+        font-size: 35px;
 
 }
-    /* @media only screen and (orientation:portrait){
-        html {
-         zoom: 30%;
-    }
-} */
+}
+
 /* END RESPONSIVE */
-
-
-
 
