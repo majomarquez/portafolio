@@ -17,13 +17,13 @@ h2{
 }
 p, a{
     font-family:'Skoda Pro Light';
-    color: black;
+    color: rgb(73, 73, 73);
     font-weight: bold;
 }
 
 .banner__item{
     flex:1;
-    color: black;
+    color: rgb(73, 73, 73);
     display:flex;
     justify-content:center;
     align-items:center;

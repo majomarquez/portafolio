@@ -13,17 +13,29 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+.portfolio{
+    background-color: whitesmoke;
 }
 .portfolio p{
     font-family: 'Skoda Pro Light'!important;
     font-size: 26px;
-    color:rgb(0, 0, 0);
+    color:rgb(73, 73, 73);
     margin-bottom: 3%;
 }
 
 .presentation{
     border-left: solid black 5px;
 }
+.presentation h2{
+    color: #0fbbbd;
+}
+.fa-phone::before:hover{
+    color: #0fbbbd;
+}
+    
+
 .me{
     width: 100%;
 }
@@ -65,7 +77,7 @@ h4{
     margin: 10px 0px
 }
 .menu li a{
-    color: black
+    color: rgb(73, 73, 73)
 }
 /* END OF MENU */
 /* MODAL */
@@ -96,7 +108,9 @@ h4{
     padding: 13%;
     outline: none;
 }
-
+.a{
+    text-decoration: none !important;
+}
 
 .technicalSkills img{
     width: 30%;
@@ -214,7 +228,7 @@ h4{
         font-size: 15px;
     }
     .presentation h1 {
-        font-size: 34px !important;
+        font-size: 32px !important;
     }
     .presentation h2 {
         font-size: 20px !important;
