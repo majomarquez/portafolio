@@ -261,5 +261,25 @@ h4{
 }
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){ 
+    .contact {
+        display: none;
+    }
+    .contact2 {
+        display:block;
+        padding-top: 6%;
+        padding-bottom: 6%;
+        text-align: center;
+    }
+    .presentation h1 {
+        font-size: 49px !important;
+    }
+    .portfolio p {
+        font-size: 34px;
+    } 
+    h4{
+        font-size: 15px;
+        text-align: center;
+    }}
 /* END RESPONSIVE */
 
